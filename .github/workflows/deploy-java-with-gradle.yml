@@ -57,6 +57,8 @@ jobs:
       # ----------------------------------------
       # Step 4: Build with Gradle Wrapper
       # ----------------------------------------
+      - name: Make gradlew executable
+        run: chmod +x ./gradlew
       - name: Build with Gradle Wrapper
         run: ./gradlew build                         # Compiles the code and runs checks
 
