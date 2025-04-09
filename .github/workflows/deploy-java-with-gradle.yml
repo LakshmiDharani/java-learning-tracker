@@ -30,7 +30,7 @@ jobs:
 
     strategy:
       matrix:
-        java-version: [17]       # Java version matrix (can extend to 11, 21, etc.)
+        java-version: [17,21]       # Java version matrix (can extend to 11, 21, etc.)
 
     steps:
       # ----------------------------------------
